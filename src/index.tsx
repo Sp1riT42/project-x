@@ -5,14 +5,12 @@ import './index.css';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
 //   <React.StrictMode>
 //     <App />
 //   </React.StrictMode>
 // );
-console.log();
 ReactDOM.render(
 	// Attention! React.StrictMode was disabled, because it fired warning
 	// <React.StrictMode>
