@@ -18,9 +18,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "prepare": "husky install",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
+    "lint:fix": "eslint --fix 'src/**/*.{ts,tsx}'",
+    "lint-staged": "lint-staged",
     "eject": "react-scripts eject"
   },
   "browserslist": {
@@ -36,6 +39,8 @@
     ]
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.10.1",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-flowtype": "^8.0.3",
@@ -49,6 +54,7 @@
     "eslint-plugin-unused-imports": "^2.0.0",
     "eslint-webpack-plugin": "^3.2.0",
     "eslint-config-react-app": "^7.0.1",
+    "husky": "^7.0.4",
     "lint-staged": "^12.3.2",
     "prettier": "^2.5.1"
   },

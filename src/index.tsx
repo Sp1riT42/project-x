@@ -12,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 //     <App />
 //   </React.StrictMode>
 // );
-
+console.log();
 ReactDOM.render(
 	// Attention! React.StrictMode was disabled, because it fired warning
 	// <React.StrictMode>
